@@ -10,5 +10,5 @@ def fizzbuzz(i)
     output = output + "Buzz"
   end
 
-  puts output
+  return output
 end
