@@ -7,7 +7,7 @@ def fizzbuzz(i)
   if(i % 3)
     output = output + "Fizz"
   elsif(i % 5)
-    ouput = ouput + "Buzz"
+    output = output + "Buzz"
   end
 
   puts output
