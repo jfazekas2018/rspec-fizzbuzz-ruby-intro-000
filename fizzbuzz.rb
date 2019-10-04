@@ -4,9 +4,9 @@ def fizzbuzz(i)
 
   output = ""
 
-  if(i % 3)
+  if(i % 3 == 0)
     output = output + "Fizz"
-  elsif(i % 5)
+  elsif(i % 5 == 0)
     output = output + "Buzz"
   end
 
