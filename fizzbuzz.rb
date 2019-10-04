@@ -7,7 +7,7 @@ def fizzbuzz(i)
   if(i % 3 == 0)
     output = output + "Fizz"
   end
-  
+
   if(i % 5 == 0)
     output = output + "Buzz"
   end
