@@ -12,5 +12,5 @@ def fizzbuzz(i)
     output = output + "Buzz"
   end
 
-  return output
+  return output == "" ? nil : output
 end
